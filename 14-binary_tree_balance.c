@@ -1,13 +1,13 @@
 #include "binary_trees.h"
 
-**
+/**
  * binary_tree_balance2 - measures the balance factor of a binary tree
  *@tree: pointer to tree
  *@tree2: pointer to sub tree
  *
  *Return: Balance factor
  */
- 
+
 size_t binary_tree_balance2(const binary_tree_t *tree,
 			    const binary_tree_t *tree2)
 {
