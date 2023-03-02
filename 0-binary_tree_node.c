@@ -2,8 +2,11 @@
 /**
  * binary_tree_node - Create a node
  * @parent: pointer to parent
+ * @value: The value to put in the new node
+ *
  * Return: pointer to the new node
  */
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 binary_tree_t *nodo;
